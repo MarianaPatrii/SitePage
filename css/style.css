@@ -1,0 +1,126 @@
+header {
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+}
+header .container_1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    color: rgb(80, 106, 133);
+    text-transform: uppercase;
+    margin: 30px;
+    /* text-align: center; */
+}
+@media all and (max-width: 768px) {
+    .container_1 {
+        width: 100%;
+    }
+}
+.navbar-nav > li > .dropdown-menu { 
+    background-color: rgb(80, 106, 133);
+}
+
+header a {
+    color: rgb(80, 106, 133);
+}
+.container_main {
+    height: 100vh;
+    background: url('../img/bg.png') center bottom no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.container_wrap {
+    position: absolute;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+@media all and (max-width: 768px) {
+    .container_wrap {
+        width: 768px;
+    }
+}
+
+.text_1 {
+    font-size: 64pt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@media all and (max-width: 768px) {
+    .text_1 {
+        font-size: 18pt;
+    }
+}
+.text_2 {
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgba(256, 255, 255, 0.5)
+}
+@media all and (max-width: 768px) {
+    .text_2 {
+        font-size: 12pt;
+    }
+}
+.my_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get_started_now {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 10pt;
+     font-weight: 700;
+     text-align: center;
+     color: #fff;
+     height: 50px;
+     width: 200px;
+     background: rgb(0, 188, 156);
+     text-transform: uppercase;
+     border-radius: 3px; 
+ }
+
+ .box {
+    margin-top: 10px; 
+    height: 150px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgb(80, 106, 133);
+    clear: both;
+    /* position: relative; */
+ }
+
+ .img {
+    max-width: 100%;
+    padding-right: 30px;
+    /* position: absolute; */
+    float: left;
+    padding-bottom: 150px; 
+ }
+ 
+ .box .title {
+    font-size: 16pt;
+ }
+ .box .text_info {
+     font-size: 10pt; 
+     color: rgba(80, 106, 133, 0.8);
+ }
+ @media all and (max-width: 768px) {
+    .title,
+    .text_info{
+        font-size: 10pt;
+    }
+}
